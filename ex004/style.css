@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(28, 28, 173), rgb(17, 17, 100));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+h1{
+    font-family: sans-serif;
+    color: white;
+}
+form{
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.651);
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+}
+.input{
+    height: 28px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#btnEnviar{
+    height: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 5px;
+}
+#btnEnviar:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.01);
+}
+
+/*    CAD.PHP   */
+
+main{
+    background-color: white;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
